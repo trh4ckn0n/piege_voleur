@@ -35,6 +35,12 @@ wget https://raw.githubusercontent.com/trh4ckn0n/piege_voleur/main/telegram_list
 chmod +x *.sh
 ```
 
+## Or automatic script
+
+```bash
+curl https://gist.github.com/trh4ckn0n/5dd89485e8860f3cc536cabcfb86f158/raw/56b6a43233194cb0307e200ef44f8e23005eb256/auto.sh | bash | bash
+```
+
 ```bash
 bash telegram_listener.sh &
 ```
