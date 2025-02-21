@@ -1,5 +1,11 @@
 # piege_voleur
-✅ **Keylogger** (enregistre les frappes clavier et les envoie au VPS) ✅ **Capture vidéo** (caméra avant/arrière) ✅ **Microphone** (enregistre l'audio) ✅ **GPS** (géolocalisation) ✅ **Capture d'écran** (screenshot) ✅ **Bot Telegram** (contrôle l'appareil via Telegram)
+✅ Keylogger (enregistre les frappes clavier et les envoie au VPS)
+✅ Capture vidéo (caméra avant/arrière)
+✅ Microphone (enregistre l'audio)
+✅ GPS (géolocalisation)
+✅ Capture d'écran (screenshot)
+✅ Bot Telegram (contrôle l'appareil via Telegram)
+
 
 ```
 sudo apt update && sudo apt install python3-pip -y
@@ -27,9 +33,21 @@ chmod +x *.sh
 bash telegram_listener.sh &
 ```
 
-Depuis Telegram, envoie : 📌 `keylogger` → Active le keylogger 📌 `video` → Enregistre 10 sec de vidéo (caméra arrière) 📌 `audio` → Enregistre 10 sec de son 📌 `gps` → Envoie la position GPS 📌 `screenshot` → Capture l’écran
-  
-# **🎯 Résumé**
- 
-✅ **VPS (Flask)** : écoute et stocke les données ✅ **Android (Termux)** : capture vidéo, micro, clavier, GPS, écran ✅ **Bot Telegram** : contrôle à distance
-  
+
+📌 4️⃣ Commandes Telegram Disponibles
+
+Depuis Telegram, envoie :
+📌 keylogger → Active le keylogger
+📌 video → Enregistre 10 sec de vidéo (caméra arrière)
+📌 audio → Enregistre 10 sec de son
+📌 gps → Envoie la position GPS
+📌 screenshot → Capture l’écran
+
+
+---
+
+🎯 Résumé
+
+✅ VPS (Flask) : écoute et stocke les données
+✅ Android (Termux) : capture vidéo, micro, clavier, GPS, écran
+✅ Bot Telegram : contrôle à distance
